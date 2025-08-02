@@ -2,15 +2,13 @@ import { Sparkle } from "lucide-react";
 
 const AboutUs = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden ">
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover scale-125 z-0"
-        src="/bgVideo.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-      ></video>
+ <div className="relative w-full h-screen overflow-hidden">
+  <img
+    className="absolute top-0 left-0 w-full h-full object-cover scale-125 z-0"
+    src="/swiz.png"
+    alt="Background"
+  />
+
 
       <div className="relative z-10 max-w-md min-h-[600px] bg-white bg-opacity-90 rounded-2xl border border-amber-950 px-6 md:px-8 py-10 m-6 md:m-14 flex flex-col justify-between shadow-lg">
         <div className="flex items-center justify-between mb-4">
