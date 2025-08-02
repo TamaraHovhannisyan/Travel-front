@@ -1,10 +1,15 @@
 import { Sparkle } from "lucide-react";
 
 const Contact = () => {
+  const backgroundImageUrl =
+    "https://www.scenic.com.au/-/media/project/scenic/scenic-tours/scenic-au/blog/3000-x-1500-header-banner/scl_swiss_alps_switzerland_001_3000x1500.jpg";
+
   return (
     <div
       className="relative bg-cover bg-center bg-no-repeat h-[450px] sm:h-[500px] md:h-[550px] lg:h-[400px] mt-10 mx-4 rounded-2xl shadow-md flex items-center justify-center"
-      style={{ backgroundImage: "url('/Lauterbrunnen.png')" }}
+      style={{
+        backgroundImage: `url('${backgroundImageUrl}')`,
+      }}
     >
       <div className="bg-white bg-opacity-90 px-6 sm:px-10 py-6 sm:py-8 rounded-2xl w-full max-w-6xl flex flex-col lg:flex-row justify-between items-center lg:items-start gap-6 lg:gap-0 text-center lg:text-left">
         <div className="space-y-3 text-amber-950 font-mono text-base sm:text-lg">

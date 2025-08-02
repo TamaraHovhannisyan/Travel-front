@@ -24,7 +24,7 @@ const Home = () => {
 
       <div className="w-full">
         <img
-          src="/person.png"
+          src="https://www.rli.uk.com/wp-content/uploads/2020/06/mantas-hesthaven-_g1WdcKcV3w-unsplash-1024x899.jpg"
           alt="Traveler"
           className="w-full max-h-[500px] object-cover rounded-2xl shadow-md"
         />
