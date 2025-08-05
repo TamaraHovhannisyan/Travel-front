@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div className="relative w-full h-screen overflow-hidden">
       <img
-        className="absolute top-0 left-0 w-full h-full object-cover scale-125 z-0"
+        className="absolute top-0 left-0 w-full h-full object-cover scale-125 z-0 rounded-2xl"
         src="https://images.ctfassets.net/ov8o7v78mnye/32uaQiXJtPwlCRo5RfvByD/4cc82a8649fe34fe0436f0ffaa30326e/Untitled-design-2020-03-10T163918.861.png"
         alt="Background"
       />

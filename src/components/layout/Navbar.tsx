@@ -15,10 +15,10 @@ const NavBar = () => {
       <div className="flex items-center justify-between">
         <ul className="hidden md:flex gap-10 text-amber-950 text-lg">
           {[
+            "Home",
             "Destinations",
             "Experiences",
             "About Us",
-            "Travel Guides",
             "Contact",
           ].map((label) => (
             <li key={label}>
@@ -59,10 +59,10 @@ const NavBar = () => {
       >
         <ul className="flex flex-col gap-4 text-amber-950 text-base">
           {[
+            "Home",
             "Destinations",
             "Experiences",
             "About Us",
-            "Travel Guides",
             "Contact",
           ].map((label) => (
             <li key={label}>
